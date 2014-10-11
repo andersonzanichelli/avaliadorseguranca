@@ -6,8 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="web/css/bootstrap.min.css">
 	<link rel="stylesheet" href="web/css/layout.css">
-	<script src="web/js/bootstrap.min.js"></script>
 	<script src="web/js/jquery-1.11.1.min.js"></script>
+	<script src="web/js/bootstrap.min.js"></script>
+	<script src="web/js/avaliador.js"></script>
 	<title>Avaliador de Segurança</title>
 	</head>
 	<body>
@@ -15,10 +16,10 @@
 			<h3>Avaliador de Segurança de Senha</h3>
  	 		
  	 		<div id="interna" class="panel-body breadcrumb">
-				<input type="password" name="password" placeholder="Senha" />
+				<input type="password" id="password" name="password" placeholder="Senha" />
 				<br />
 				<span id="porcentagem" class="label label-default" >0%</span>
-				<span id="conplexidade" class="label label-danger" >Muito curta</span>
+				<span id="complexidade" class="label label-danger" >Muito curta</span>
 			</div>
 		</div>
 	</body>
